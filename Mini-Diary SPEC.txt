@@ -84,6 +84,8 @@ Example:
 1|Today went to university|2026-03-15
 2|ı studied coding|2026-03-14
 
+Requirement Update: All data must be saved using UTF-8 encoding to support various characters. Deleted IDs cannot be reused; new entries must always use the auto-increment formula (highest_id + 1).
+
 ========================================
 ERROR HANDLING
 ========================================
